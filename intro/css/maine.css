@@ -4,7 +4,7 @@
   }
 div{padding: 5px 10px;}
   body{
-    background-image:image(./img/laivas.jpg);
+    background-image:image();
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
