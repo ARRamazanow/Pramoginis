@@ -1,0 +1,31 @@
+
+  *{
+    box-sizing: border-box;
+  }
+div{padding: 5px 10px;}
+  body{
+    background-image:image(./img/laivas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  h2 {
+    margin-top: 10px;
+    
+  }
+  
+  .contacts a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .contacts a:hover {
+    color: rgb(31, 247, 247);
+    border-radius: 20px; 
+  }
+  

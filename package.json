@@ -1,0 +1,21 @@
+{
+  "name": "pramoginis",
+  "version": "1.0.0",
+  "description": "🛥️ Boat Rental Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARRamazanow/pramoginis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARRamazanow/pramoginis/issues"
+  },
+  "homepage": "https://github.com/ARRamazanow/pramoginis#readme"
+}
