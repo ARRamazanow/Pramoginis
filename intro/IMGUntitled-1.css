@@ -1,0 +1,42 @@
+/* <div class="image-container">
+    <img class="pic" src="./img/laivas.jpg" alt="laivelis">
+    <img class="pic2" src="./img/l6.JPG" alt="laivelis">
+    </div>
+
+
+    .image-container{
+      display:flex; 
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .pic {
+      width: 30%;   
+      height: auto; 
+      float: right; 
+      border-radius:20cm;
+    }
+    .pic2 {
+      width: 30%;   
+      height: auto; 
+      float: right; 
+      border-radius:20cm;
+    }
+   
+
+
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-thin.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-solid.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-light.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-thin.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-solid.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-regular.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-light.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-thin.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-regular.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-light.css">
+
+
+<i class="fa-duotone fa-solid fa-camera"></i>

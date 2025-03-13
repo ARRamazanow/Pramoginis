@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danės Kruizai</title>
     <link rel="stylesheet" href="./css/maine.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900
+    &family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 
-<body background="./img/l3.JPG" 
-style="background-repeat: no-repeat;">
-
+<body>
+    <main>
 <button>
 
 </button>
-   <div class=img-box><img src="./img/pn.png" height="200" width="200" alt="Logotipas"></div>
-<div>
-    <h1 >Danės Kruizai</h1>
-</div>
-<h2>Mūsų paslaugos</h2>
-<h3>Laivo nuoma šventinems progoms, žvejybai, fotosesijoms ir pramogoms.</h3>
+   <div class="header">
+    <div class="img-box">
+        <img src="./img/pn.png" height="200" width="200" alt="Logotipas">
+    </div>
+    <h1>Danės Kruizai</h1>
 
+<h2>Mūsų paslaugos</h2></div>
+<div>
+<h3 class="text">Laivo nuoma: <br>Šventinems progoms, <br>Žvejybai, <br>Fotosesijoms ir pramogoms.</h3></div>
+<div class="image-gallery">
+    <img src="./img/l3.JPG" alt="pic1" class="zoom-image" onclick="openFullscreen(this)">
+    <img src="./img/l4.JPG" alt="pic2" class="zoom-image" onclick="openFullscreen(this)">
+    <img src="./img/l5.JPG" alt="pic3" class="zoom-image" onclick="openFullscreen(this)">
+    <img src="./img/l6.JPG" alt="pic4" class="zoom-image" onclick="openFullscreen(this)">
+    <img src="./img/l7.JPG" alt="pic5" class="zoom-image" onclick="openFullscreen(this)">
+    <img src="./img/l9.jpg" alt="pic6" class="zoom-image" onclick="openFullscreen(this)">
+</div>
+        <div id="fullscreen-overlay" class="overlay" onclick="closeFullscreen()">
+    <img id="fullscreen-img" class="fullscreen-img">
+        </div>
 
 <div class="contacts">
         <a href="https://www.facebook.com/people/Dan%C4%97s-Kruizai/61558170715688">
@@ -29,7 +48,17 @@ style="background-repeat: no-repeat;">
             <img src="https://cdn-icons-png.flaticon.com/512/6815/6815116.png"
             height="15" width="15" alt="Logotipas">+37065599922</a>    
  </div>
+</main>
+<script>
+    function openFullscreen(img) {
+        document.getElementById("fullscreen-img").src = img.src;
+        document.getElementById("fullscreen-overlay").style.display = "flex";
+    }
 
+    function closeFullscreen() {
+        document.getElementById("fullscreen-overlay").style.display = "none";
+    }
+</script>
 </body>
 </html>
 
